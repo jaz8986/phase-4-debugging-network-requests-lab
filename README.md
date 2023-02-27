@@ -63,10 +63,14 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+      - saw 500 and thought it was a server error
+      - looked through the create method and Toy was being called with Toys
 
 - Update the number of likes for a toy
 
   - How I debugged:
+      - saw uncaught promise so i thought something might be wrong with the server
+      - the update method was missing a render json
 
 - Donate a toy to Goodwill (and delete it from our database)
 
